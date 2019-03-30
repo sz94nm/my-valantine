@@ -1,0 +1,26 @@
+.bg-black{
+    background-color: black;
+}
+.border-radius{
+    border-width: 0px;
+    border-radius: 20px;
+}
+.overflow-hidden{
+    overflow:hidden;
+}
+.bg-pink{
+    background-color:#564151;
+}
+.bg-somecolor{
+    background-color: #000025;
+}
+.card-size{
+    height: 45vh;
+    object-fit: cover;
+}
+.h-40vh{
+    height: 40vh;
+}
+.max-width-340{
+    max-width: 340px;
+}

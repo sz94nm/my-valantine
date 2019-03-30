@@ -1,0 +1,57 @@
+#cover {
+    /*background-image: url("/assets/cover.jpg");*/
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+#profile {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    overflow: hidden;
+    border-width: 5px;
+
+
+}
+
+#about {
+    min-height: 500px;
+    vertical-align: middle;
+}
+
+#contact {
+    min-height: 500px;
+    vertical-align: middle;
+}
+#contact p{
+    font-size: 3vw;
+}
+
+#about p {
+    font-size: 3vw;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.fa {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.fab {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.small-font {
+    font-size: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.fontstuff{
+    font-family: "Trebuchet MS";!important;
+}
