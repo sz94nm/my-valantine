@@ -120,7 +120,7 @@ body {
 
 .gradiant1 {
     /*background-image: linear-gradient(45deg,#E21226  0%,#B62F62  120%);*/
-    background-image: linear-gradient(-20deg, #ff9a44 0%, #fc6076 100%);
+    background-image: linear-gradient(-50deg, #ff9a44 20%, #fc6076 100%);
 }
 
 .bg-half {
