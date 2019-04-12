@@ -116,7 +116,7 @@
         </div>
         <!-- /grid -->
         <div class="preview mt-5">
-            <button class="mt-5 action action--close"><i class="fa fa-times"></i><span class="text-hidden">Close</span>
+            <button class="mt-5 action action--close"><span class="">X</span>
             </button>
             <div class="description description--preview"></div>
         </div>

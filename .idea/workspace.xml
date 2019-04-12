@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0f09ed-28e4-4a49-86ee-feccaf580b05" name="Default Changelist" comment="some fixes and stuff">
-      <change afterPath="$PROJECT_DIR$/public/fonts/Oxygen-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Oxygen-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Oxygen-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Raleway-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Raleway-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Raleway-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Raleway-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Raleway-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Raleway-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/1001fonts-dragon-alphabet-eula.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Dovahkiin Bold Italic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Dovahkiin Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Dovahkiin Italic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Dovahkiin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Font License.txt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/codropsicons/codropsicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/codropsicons/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/grid.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/home.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,11 +23,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/site/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="52" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="401">
+              <caret line="118" column="67" selection-start-line="118" selection-start-column="67" selection-end-line="118" selection-end-column="67" />
               <folding>
-                <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#0#12738#0#Blade" />
                 <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -79,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -93,6 +60,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/grid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="313" column="21" selection-start-line="313" selection-start-column="21" selection-end-line="313" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -129,6 +105,7 @@
       <find>data-size</find>
       <find>my-</find>
       <find>grid</find>
+      <find>close</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,7 +120,6 @@
         <option value="$PROJECT_DIR$/../New folder (4)/index.html" />
         <option value="$PROJECT_DIR$/public/css/base.css" />
         <option value="$PROJECT_DIR$/../ImageGridEffects/index2.html" />
-        <option value="$PROJECT_DIR$/public/css/grid.css" />
         <option value="$PROJECT_DIR$/database/migrations/2019_02_14_192116_create_posts_table.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/create.blade.php" />
@@ -176,9 +152,10 @@
         <option value="$PROJECT_DIR$/../ImageGridEffects/js/imagesloaded.pkgd.min.js" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/css/site.css" />
-        <option value="$PROJECT_DIR$/resources/views/site/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/home.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/grid.css" />
       </list>
     </option>
   </component>
@@ -502,7 +479,7 @@
       <workItem from="1554686231102" duration="78000" />
       <workItem from="1554686335876" duration="33000" />
       <workItem from="1554686490945" duration="14996000" />
-      <workItem from="1555035274793" duration="3099000" />
+      <workItem from="1555035274793" duration="4552000" />
     </task>
     <task id="LOCAL-00001" summary="some fixes and stuff">
       <created>1555041045301</created>
@@ -511,17 +488,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555041045301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some fixes and stuff">
+      <created>1555041137717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555041137717</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some fixes and stuff">
+      <created>1555042425012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555042425012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126015000" />
+    <option name="totallyTimeSpent" value="127468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.2815534" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.2815534" />
       <window_info id="Structure" order="1" sideWeight="0.5011601" side_tool="true" weight="0.24838188" />
       <window_info id="Favorites" order="2" sideWeight="0.5011601" side_tool="true" weight="0.24838188" />
       <window_info anchor="bottom" id="Messages" weight="0.32970452" />
@@ -572,7 +563,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="some fixes and stuff" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InformationsController.php" />
     <entry file="file://$PROJECT_DIR$/app/infos.php" />
     <entry file="file://$PROJECT_DIR$/app/informations.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_29_170119_create_informations_table.php" />
@@ -828,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/about.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -843,18 +826,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/info.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="52" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#0#12738#0#Blade" />
-            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -867,6 +838,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="118" column="67" selection-start-line="118" selection-start-column="67" selection-end-line="118" selection-end-column="67" />
+          <folding>
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="313" column="21" selection-start-line="313" selection-start-column="21" selection-end-line="313" selection-end-column="21" />
         </state>
       </provider>
     </entry>
