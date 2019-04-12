@@ -8,10 +8,6 @@
 
     <title>Mb24Black</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    {{-- Font Awesome --}}
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    {{--<link href="/js/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">--}}
 
     {{--Grid Style--}}
     <link rel="stylesheet" type="text/css" href="css/grid.css"/>
@@ -23,15 +19,18 @@
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/classie.js"></script>
 
+    <style>
 
+    </style>
 </head>
-<body id="page-top" class="bg-somecolor">
+<body id="page-top" class="bg-somecolor gradiant1">
 
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger font-weight-bold fontstuff " href="#page-top"><h3>MB24Black</h3> </a>
+        <a class="navbar-brand js-scroll-trigger font-weight-bold logo dova" href="#page-top"><h3 class="dova">
+                MB24</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
-                    <a class="nav-link js-scroll-trigger fontstuff" href="#about">About</a>
+                    <a class="nav-link  js-scroll-trigger " href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger fontstuff" href="#work">My work</a>
+                    <a class="nav-link js-scroll-trigger " href="#work">My work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger fontstuff" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger " href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -63,8 +62,8 @@
             </div>
             <div class="row justify-content-center ">
                 <div class="col-auto text-center">
-                    <h2 class=" text-white fontstuff">{{$option->brand}}</h2>
-                    <h3 class=" text-white fontstuff">{{$option->profession}}</h3>
+                    <h2 class=" text-white font-raleway-regular brand">{{$option->brand}}</h2>
+                    <h3 class=" text-white font-raleway-regular profession">{{$option->profession}}</h3>
                 </div>
             </div>
         </div>
@@ -74,14 +73,14 @@
 </div>
 
 {{--about--}}
-<div class="container-fluid px-0">
+<div class="container-fluid px-0 ">
     {{--about--}}
-    <section class="text-center content bg-light p-5" id="about">
+    <section class="text-center content  p-5" id="about">
         <div class="m-5">
-            <h1 class="fontstuff font-weight-bolder">About me</h1>
+            <h1 class="font-oxygen big-h1">About me</h1>
         </div>
         <div class="text-center m-5">
-            <p class="fontstuff">{{$option->about}}</p>
+            <p class="font-raleway">{{$option->about}}</p>
 
         </div>
 
@@ -90,12 +89,12 @@
 
 
     {{--content--}}
-    <section class="content bg-dark" id="work">
+    <section class="content bg-half py-4" id="work">
         <div class="grid">
             @foreach($posts as $index=>$post)
                 {{--{{list($width, $height) = getimagesize(public_path($post->image))}}--}}
 
-                <div class="grid__item" data-size="1000x800">
+                <div class="grid__item" data-size="1200x1200">
                     <a href="{{$post->image}}" class="img-wrap"><img
                             class="my-image" src="{{$post->image}}" alt="img06"/></a>
                     <div class="d-none description description--grid">
@@ -112,6 +111,8 @@
 
             @endforeach
 
+
+
         </div>
         <!-- /grid -->
         <div class="preview mt-5">
@@ -125,22 +126,22 @@
 
 
     {{--Contact me--}}
-    <section class="text-center content p-5 bg-light" id="contact">
+    <section class="text-center content p-5" id="contact">
         <div class="m-5">
-            <h1>Contact me</h1>
+            <h1 class="big-h1 font-oxygen">Contact me</h1>
         </div>
         <div class="text-center m-5">
-            <p class="fontstuff">{{$option->contact}}</p>
-            <a href="{{$option->facebook}}"><i class="fab fa-facebook-square"></i></a>
-            <a href="{{$option->instagram}}"><i class="fab fa-instagram"></i></a>
-            <i class="fa fa-envelope color-blue" aria-hidden="true"><span class="small-font fontstuff ">{{$option->email}}</span></i>
+            <p class="font-raleway ">{{$option->contact}}</p>
+            <a class="mx-1" href="{{$option->facebook}}"><img src="assets/facebook.png" width="50px"></a>
+            <a class="mx-1" href="{{$option->instagram}}"><img src="assets/instagram.png" width="50px" alt=""></a>
+            <img class="mx-1" src="assets/gmail.png" width="50px" alt=""><span class="font-oxygen-bold mx-1">{{$option->email}}</span>
 
         </div>
 
     </section>
 {{--Contact me--}}
 <!-- Footer -->
-    <footer class="py-3 bg-dark w-100">
+    <footer class="py-3 bg-half w-100">
 
         <p class="m-0 text-center text-white">Copyright &copy; Mb24Black 2019</p>
 

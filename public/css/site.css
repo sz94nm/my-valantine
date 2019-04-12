@@ -6,14 +6,75 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: dova;
+    src: url("/fonts/dragon_alphabet.ttf");
+    font-style: normal ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: oxygen;
+    src: url("/fonts/Oxygen-Regular.ttf");
+    font-style: normal ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: oxygen-light;
+    src: url("/fonts/Oxygen-Light.ttf");
+    font-style: normal ;
+
+}
+
+@font-face {
+    font-family: oxygen-bold;
+    src: url("/fonts/Oxygen-Bold.ttf");
+    font-style: normal ;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("/fonts/Raleway-Regular.ttf");
+    font-style: normal ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: raleway-italic;
+    src: url("/fonts/Raleway-Italic.ttf");
+    font-style: normal ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: raleway-light-italic;
+    src: url("/fonts/Raleway-LightItalic.ttf");
+    font-style: normal ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: raleway-semibold-italic;
+    src: url("/fonts/Raleway-SemiBoldItalic.ttf");
+    font-style: normal ;
+    font-weight: normal;
+}
+
 #profile {
     border-radius: 50%;
     border-style: solid;
-    border-color: white;
+    border-color: rgba(255,255,255,.8);
     overflow: hidden;
-    border-width: 5px;
+    border-width: 4px;
+    padding: 5px;
 
 
+}
+
+.dova {
+    font-family: dova;
 }
 
 #about {
@@ -25,12 +86,16 @@
     min-height: 500px;
     vertical-align: middle;
 }
-#contact p{
+
+#contact p {
     font-size: 3vw;
+    color: #343A40;
+
 }
 
 #about p {
-    font-size: 3vw;
+    font-size: 4vw;
+    color: #343A40;
 }
 
 body {
@@ -52,6 +117,92 @@ body {
     margin-left: 5px;
     vertical-align: middle;
 }
-.fontstuff{
-    font-family: "Trebuchet MS";!important;
+
+.gradiant1 {
+    /*background-image: linear-gradient(45deg,#E21226  0%,#B62F62  120%);*/
+    background-image: linear-gradient(-20deg, #ff9a44 0%, #fc6076 100%);
+}
+
+.bg-half {
+
+    background-image: linear-gradient(30deg, #818282 0%, #343A40 80%);
+}
+
+.font-oxygen {
+    font-family: oxygen;
+}
+
+.font-oxygen-bold {
+    font-family: oxygen-bold;
+}
+
+.font-raleway {
+    font-family: raleway-italic;
+}
+
+.font-raleway-regular {
+    font-family: raleway-semibold-italic;
+}
+
+.big-h1 {
+    font-size: 400%;
+}
+
+.brand,.profession {
+    text-shadow: 1px 1px 5px orangered;
+}
+
+.logo h3 {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #FC0C04;
+    font-size: 1.6em;
+
+}
+
+.logo h3:hover {
+    -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon5 1.5s ease-in-out infinite alternate;
+    animation: neon5 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon5 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FC0C04, 0 0 30px #FC0C04, 0 0 40px #FC0C04, 0 0 60px #FC0C04, 0 0 80px #FC0C04;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FC0C04, 0 0 35px #FC0C04, 0 0 40px #FC0C04, 0 0 50px #FC0C04, 0 0 75px #FC0C04;
+    }
+}
+
+
+/*glow for mozilla*/
+
+
+@-moz-keyframes neon5 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FC0C04, 0 0 30px #FC0C04, 0 0 40px #FC0C04, 0 0 60px #FC0C04, 0 0 80px #FC0C04;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FC0C04, 0 0 35px #FC0C04, 0 0 40px #FC0C04, 0 0 50px #FC0C04, 0 0 75px #FC0C04;
+    }
+}
+
+
+/*glow*/
+
+
+@keyframes neon5 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FC0C04, 0 0 30px #FC0C04, 0 0 40px #FC0C04, 0 0 60px #FC0C04, 0 0 80px #FC0C04;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FC0C04, 0 0 35px #FC0C04, 0 0 40px #FC0C04, 0 0 50px #FC0C04, 0 0 75px #FC0C04;
+    }
+}
+
+.logo h3:hover {
+    color: #ffffff;
 }
