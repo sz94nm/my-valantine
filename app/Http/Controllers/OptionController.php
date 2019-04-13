@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Option;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
+use Intervention\Image\Facades\Image;
 
 class OptionController extends Controller
 {
@@ -95,13 +96,25 @@ class OptionController extends Controller
             $data["cover"] = $path;
         }
         if ($request->hasFile('profile')) {
-            $path = $request->file('profile')->store('uploads');
-//            $path = str_replace("public/images", "", $path);
-            $data["profile"] = $path;
+            $image = $request->file('profile');
+            $filename ='profile.' . $image->getClientOriginalExtension();
+            $img = Image::make($image->getRealPath());
+
+            $img->resize(400, null, function ($constraint) {
+                $constraint->aspectRatio();
+            });
+            $img->save('uploads/' . $filename);
+            $data["profile"] = 'uploads/' . $filename;
         }
         $option->update($data);
 
         return Response::redirectTo("/dashboard/posts");
+
+
+
+
+
+
     }
 
     /**

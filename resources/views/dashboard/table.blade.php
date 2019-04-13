@@ -33,7 +33,7 @@
                                     <td>{{ $post->title }}</td>
                                     <td><div class="overflow-hidden max-width-340" >{{ $post->description }}</div></td>
                                     <td>
-                                        <img height="30px" src="/{{$post->image}}" alt="">
+                                        <img height="30px" src="/{{$post->image[1]}}" alt="">
                                     </td>
 
 

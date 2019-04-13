@@ -23,7 +23,7 @@
 
     </style>
 </head>
-<body id="page-top" class="bg-somecolor gradiant1">
+<body id="page-top" class="bg-somecolor ">
 
 
 <!-- Navigation -->
@@ -56,7 +56,7 @@
     <div class="row justify-content-center p-5 m-0">
         <div class="col">
             <div class="row justify-content-center my-5">
-                <div class="col-md-2 col-sm-4 col-6">
+                <div  class=" col-md-2 col-sm-4 col-6">
                     <img class="w-100" src="{{$option->profile}}" alt="" id="profile">
                 </div>
             </div>
@@ -73,7 +73,7 @@
 </div>
 
 {{--about--}}
-<div class="container-fluid px-0 ">
+<div class="container-fluid px-0 gradiant1 ">
     {{--about--}}
     <section class="text-center content  p-5" id="about">
         <div class="m-5">
@@ -95,14 +95,14 @@
                 {{--{{list($width, $height) = getimagesize(public_path($post->image))}}--}}
 
                 <div class="grid__item" data-size="1200x1200">
-                    <a href="{{$post->image}}" class="img-wrap"><img
-                            class="my-image" src="{{$post->image}}" alt="img06"/></a>
+                    <a href="{{$post->image[0]}}" class="img-wrap"><img
+                            class="my-image" src="{{$post->image[1]}}" alt="img06"/></a>
                     <div class="d-none description description--grid">
                         <h2 class="m-2">{{$post->title}}</h2>
                         <p>{{$post->description}}</p>
                         <div class="details">
                             <ul>
-                                <li><a class="btn btn-lg btn-primary" href="{{$post->image}}" download>Download</a>
+                                <li><a class="btn btn-lg btn-primary" href="{{$post->image[0]}}" download>Download</a>
                                 </li>
                             </ul>
                         </div>
@@ -158,6 +158,7 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/main.js"></script>
 <script>
+
     (function () {
         var support = {transitions: Modernizr.csstransitions},
             // transition end event name

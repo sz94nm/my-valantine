@@ -7,8 +7,11 @@ use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Facades\Image;
+
 
 class PostController extends Controller
 {
@@ -54,17 +57,30 @@ class PostController extends Controller
         $rules = [
             "title" => "required",
             "description" => "required",
-             "image" => "required",
+            "image" => "image",
 
         ];
         $data = $this->validate($request, $rules);
-        $path = $request->file('image')->store('uploads');
-//      $path = str_replace("public/images","",$path);
-        $data["image"] =$path;
+        $image = $request->file('image');
+        //storing original size the usual way
+        $files[0] = $image->store("uploads");
+
+        //giving a unique file name to the thumbnail
+
+        $filename =str_random(30). '.' . $image->getClientOriginalExtension();
+        $img = Image::make($image->getRealPath());
+
+        $img->resize(400, null, function ($constraint) {
+            $constraint->aspectRatio();
+        });
+
+        $img->save('uploads/' . $filename);
+        $files[1] = 'uploads/' . $filename;
+
+        $data["image"] = $files;
         Post::create($data);
 
-
-     return Response::redirectTo("/dashboard/posts");
+        return Response::redirectTo("/dashboard/posts");
 
     }
 
@@ -110,7 +126,6 @@ class PostController extends Controller
         $data = $this->validate($request, $rules);
         $post->update($data);
         return Response::redirectTo("/dashboard/posts");
-
 
 
     }

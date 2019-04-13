@@ -11,6 +11,9 @@ class Post extends Model
         "image",
         "description",
     ];
+    protected $casts = [
+        'image' => 'array',
+    ];
 
 
 }
