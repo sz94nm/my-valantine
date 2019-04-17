@@ -25,6 +25,12 @@
 	width: 360px;
 	padding: 10px;
 }
+@media screen and (max-width: 360px) {
+    .grid__item {
+        width: 280px;
+        padding: 0px;
+    }
+}
 
 .grid__item--current {
 	opacity: 0 !important;
@@ -82,6 +88,7 @@
 
 .preview--open {
 	pointer-events: auto;
+    opacity: 1;
 }
 
 .preview--open::before {
