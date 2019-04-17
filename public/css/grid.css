@@ -354,8 +354,5 @@
 	.description--preview h3 {
 		font-size: 0.5em;
 	}
-	.description--preview p,
-	.details {
-		display: none;
-	}
+
 }
