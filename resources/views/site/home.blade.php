@@ -95,14 +95,14 @@
                 {{--{{list($width, $height) = getimagesize(public_path($post->image))}}--}}
 
                 <div class="grid__item" data-size="1200x1200">
-                    <a href="{{$post->image[0]}}" class="img-wrap"><img
-                            class="my-image" src="{{$post->image[1]}}" alt="img06"/></a>
+                    <a href="/{{$post->image[0]}}" class="img-wrap"><img
+                            class="my-image" src="/{{$post->image[1]}}" alt="img06"/></a>
                     <div class="d-none description description--grid">
                         <h2 class="m-2">{{$post->title}}</h2>
                         <p>{{$post->description}}</p>
                         <div class="details">
                             <ul>
-                                <li><a class="btn btn-lg btn-primary" href="{{$post->image[0]}}" download>Download</a>
+                                <li><a class="btn btn-lg btn-primary" href="/{{$post->image[0]}}" download>Download</a>
                                 </li>
                             </ul>
                         </div>
