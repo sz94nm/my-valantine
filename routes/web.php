@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'SiteController@index' );
+Route::get('/base', 'SiteController@index' );
 
 Route::group(["prefix" => "/dashboard", "middleware" =>'auth'], function () {
     Route::resource('posts', 'PostController');
